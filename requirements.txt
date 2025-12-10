@@ -1,18 +1,17 @@
-tensorflow==2.16.1
-pandas 
+tensorflow==2.16.1          # works with Python 3.10
+numpy==1.26.0               # compatible
+scipy==1.11.4             # compatible
+mlflow==2.11.3              # works
+python-box==6.0.2
+pyyaml
+pandas
 dvc
-mlflow==2.2.2
 notebook
-numpy
 matplotlib
 seaborn
-python-box==6.0.2
-pyYAML
 tqdm
 ensure==1.0.2
 joblib
-types-PyYAML
-scipy
 Flask
 Flask-Cors
 gdown
